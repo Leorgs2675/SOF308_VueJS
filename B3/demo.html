@@ -73,6 +73,115 @@ ul.nav.tabs {
     text-align: center;
     margin-bottom: 4em;
 }
+.nav-item a{
+  color: black;
+}
+.row{
+  margin-top: 70px;
+}
+.card img{
+  margin: 0 auto;
+    width: 55%;
+}
+.card-body{
+  padding: 3em 0 0;
+}
+.card-body h6{
+  font-size: 1.2em;
+}
+.card-body h6 a{
+  color: black;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.bodycard2 p{
+  padding-left: 30px;
+  line-height: 2.2em;
+    font-size: 14px;
+    color: #B4B4B4;
+    display: inline;
+}
+.bodycard2 p label {
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-right: 6px;
+}
+.bodycard2 p em {
+    font-style: normal;
+}
+.rating{
+  float: right;
+}
+.add{
+  text-align: center;
+}
+.add button{
+  
+    padding: 10px 20px;
+    border: 2px solid #28a745;  
+    border-radius: 20px;        
+    background-color: white;     
+    color: #28a745;              
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add button:hover {
+    background-color: #28a745;   
+    color: white;                
+}
+
+.slide{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #333333; 
+    color: #f5f5f5;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b0b0b0; 
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #b0b0b0; 
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff; 
+}
+
     </style>
   </head>
   <body>
@@ -168,20 +277,330 @@ ul.nav.tabs {
     <div class="tab-head">
        <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <a class="nav-link active" aria-current="page" href="#">Staples</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Snack</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Fruits & Vegetable</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <a class="nav-link active" aria-current="page">Breakfast & Cereal</a>
   </li>
 </ul>
-    </div>   
+    </div> 
+    <!-- card -->
+     <div class="row">
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
 </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of3.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+     </div>
+</div>
+<!-- slide -->
+<div class="slide">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/ba1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/ba2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/ba.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+</div>
+<!-- ------ -->
+ <div class="container">
+    <div class="spec">
+        <h3>Special Offers</h3> 
+    </div>
+    <!-- card -->
+     <section>
+     <div class="row">
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of16.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of17.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of18.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of19.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+     </div>
+     </section>
+     <section>
+     <div class="row">
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of20.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of21.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of22.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://p.w3layouts.com/demos_new/template_demo/19-07-2017/big_store-demo_Free/91858261/web/images/of3.png" class="card-img-top" alt="...">
+  <div class="card-body">
+<h6 class="card-text"><a href="">Moong</a>(1kg)</h6>
+    <div class="bodycard2">
+      <p>
+        <label for="">$2.00</label>
+        <em>$1.50</em>
+      </p>
+      <div class="rating">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Fk7hYOTAajXQTz0vr04oGlN-zS8OxCzz6g&s" alt="" width="30px" height="40px">
+      </div>
+      <div class="add">
+        <button>Add to card</button>
+      </div>
+    </div>
+    </div>
+</div>
+        </div>
+     </div>
+     </section>
+</div>
+<footer class="footer">
+    <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+    </div>
+    <div class="footer-section">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Kitchen</a></li>
+            <li><a href="#">Personal Care</a></li>
+            <li><a href="#">Household</a></li>
+            <li><a href="#">Short Codes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-section">
+        <h3>Customer Services</h3>
+        <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Online Shopping</a></li>
+        </ul>
+    </div>
+    <div class="footer-section">
+        <h3>My Account</h3>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Wishlist</a></li>
+        </ul>
+    </div>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
